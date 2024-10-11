@@ -25,6 +25,7 @@ body {
     color: #916c40;
     max-width: 100%;
     overflow: hidden;
+    background-color: rgba(11, 29, 31, 1);
 }
 
 .lander {
@@ -68,10 +69,9 @@ body {
 }
 
 .lander-logo-text {
-    text-align: left;
     font-family: 'urdu';
     color: #916c40;
-    font-size: 44vx;
+    font-size: 44px;
     transform: translate(-25vw, 11vw)
 }
 
