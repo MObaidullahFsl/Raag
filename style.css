@@ -24,7 +24,7 @@ body {
     margin: 0px;
     color: #916c40;
     max-width: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
     background-color: rgba(11, 29, 31, 1);
 }
 
@@ -111,5 +111,6 @@ body {
     color: white;
     margin: auto;
     width: fit-content;
+    font-size: 45px;
     text-decoration: underline;
 }
