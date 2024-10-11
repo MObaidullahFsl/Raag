@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'mirza-bold';
+    src: URL('fonts/Mirza-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'mirza';
+    src: URL('fonts/Mirza-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'urdu';
+    src: URL('fonts/urdu.ttf') format('truetype');
+}
+
+img {
+    pointer-events: none;
+    user-select: none;
+}
+
+body {
+    font-family: 'mirza-bold';
+    font-size: 40px;
+    margin: 0px;
+    color: #916c40;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.lander {
+    display: flex;
+}
+
+.lander-description {
+    width: 76vw;
+    height: 100vh;
+    background-image: linear-gradient(to right, rgba(11, 29, 31, 1) 88%, rgba(11, 29, 31, 0));
+    z-index: 1;
+}
+
+.lander-description-text {
+    margin-left: 10vw;
+    margin-right: 12vw;
+    margin-top: 6vw;
+    font-size: 16px;
+    float: left;
+    text-wrap: balance;
+}
+
+.lander-description-row {
+    display: flex;
+    align-items: center;
+    padding-top: 8vw;
+    padding-left: 8vw;
+}
+
+.background-image-transparent {
+    width: 25%;
+    opacity: 15%;
+    scale: 1.6;
+    transform: translate(-4vw, -6vw)
+}
+
+.lander-logo {
+    width: 25%;
+    margin-bottom: 2vw;
+    transform: translate(-18vw, 0)
+}
+
+.lander-logo-text {
+    text-align: left;
+    font-family: 'urdu';
+    color: #916c40;
+    font-size: 44vx;
+    transform: translate(-25vw, 11vw)
+}
+
+.lander-image {
+    position: absolute;
+    margin-left: 40vw;
+    z-index: 0;
+    align-items: end;
+}
+
+.lander-image::after {
+    position: absolute;
+    content: "";
+    height: 50vw;
+    width: 100%;
+    top: 0;
+    left: 27vw;
+    background: linear-gradient(to bottom, rgba(11, 29, 31, 0) 90%, rgba(11, 29, 31, 1) 100%);
+}
+
+.masjid-image {
+    position: relative;
+    width: 33.3vw;
+    left: 27vw;
+}
+
+.speaker-image {
+    position: absolute;
+    width: 20%;
+    top: 20%;
+    left: 30%;
+    border-radius: 30%;
+    overflow: hidden
+}
+
+.header {
+    color: white;
+    margin: auto;
+    width: fit-content;
+    text-decoration: underline;
+}
